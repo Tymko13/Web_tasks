@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Форма викладача</title>
+    </head>
+    <body>
+        <form action="">
+            <h1>Введіть дані викладача</h1>
+            <div>
+                <label for="first_name">Ім'я:</label>
+                <input
+                    type="text"
+                    name="first_name"
+                    id="first_name"
+                    placeholder="Ваше ім'я"
+                    required
+                />
+            </div>
+            <div>
+                <label for="last_name">Прізвище:</label>
+                <input
+                    type="text"
+                    name="last_name"
+                    id="last_name"
+                    placeholder="Ваше прізвище"
+                    required
+                />
+            </div>
+            <div>
+                <label for="sex">Стать:</label>
+                <select name="sex" id="sex" required>
+                    <option value="">-Оберіть стать-</option>
+                    <option value="male">Чоловіча</option>
+                    <option value="female">Жіноча</option>
+                    <option value="intersex">Інтерсекс</option>
+                </select>
+            </div>
+            <div>
+                <label for="bday">Дата народження:</label>
+                <input type="date" name="bday" id="bday" required />
+            </div>
+            <div>
+                <label for="email">Електронна пошта:</label>
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="ваша@пош.та"
+                    required
+                />
+            </div>
+            <div>
+                <label for="tel">Телефон:</label>
+                <input
+                    type="tel"
+                    name="tel"
+                    id="tel"
+                    placeholder="Ваш телефон"
+                    required
+                />
+            </div>
+            <div>
+                <label for="color">Бажаний колір фону:</label>
+                <input type="color" name="color" id="color" />
+            </div>
+            <div>
+                <label for="country">Країна:</label>
+                <input
+                    type="text"
+                    name="country"
+                    id="country"
+                    placeholder="Країна проживання"
+                    required
+                />
+            </div>
+            <div>
+                <label for="city">Місто:</label>
+                <input
+                    type="text"
+                    name="city"
+                    id="city"
+                    placeholder="Місто проживання"
+                    required
+                />
+            </div>
+            <div>
+                <label for="comment">Коментар:</label>
+                <input
+                    type="text"
+                    name="comment"
+                    id="comment"
+                    placeholder="Коментар"
+                />
+            </div>
+            <button>Підтвердити</button>
+        </form>
+    </body>
+</html>
